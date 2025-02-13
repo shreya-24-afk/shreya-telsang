@@ -1,34 +1,29 @@
-body{ 
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-text-align: center;
-background-color: aqua;
-margin: 0;
-padding: 0;   
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:plum;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
 }
-.counter-container{
-    background: plum;
+.container{
+    background: brown;
     padding: 20px;
     border-radius: 10px;
-    display: inline-block;
-    margin-top: 50px;
+    width: 350px;
+}
+h2{
+    text-align: center;
+    color: black;
+    font-style: italic;
+
 }
 button{
-    font-size: 10px;
-    padding: 10px 20px;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;  
     margin: 5px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-    background-color: white;
 }
-#increase{
-    background-color: green;
-}
-    #decrease{
-        background-color: red;
-    }
-    #reset{
-        background-color: gray;
-    }
+
+
 
