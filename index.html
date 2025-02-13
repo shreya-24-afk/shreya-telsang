@@ -3,22 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>counter</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <nav>
-<a href="index.html">Home</a>
-<a href="alert.html">Alert</a>
-<a href="dom.html">DOM Manipulation</a>
-<a href="event.html">Event</a>
-<a href="form.html">Form</a>
-<a href="array.html">Array</a>
-<a href="if_else.html">if_else</a>
-</nav>
-<div class="container">
-    <h1>welcome tp basic javascript site</h1>
-    <p>click the links above to explore javascript functionalities.</p>
-</div>    
+    <div class="counter-container">
+<h2>Counter App</h2>
+<p id="count">0</p>
+<button id="increase" onclick="increaseCount()">Increase</button>
+<button id="decrease" onclick="decreaseCount()">Decrease</button>
+<button id="reset" onclick="resetCount()">Reset</button>
+</div>
+<script src="script.js"></script>
 </body>
 </html>

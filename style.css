@@ -1,29 +1,34 @@
-*{
- font-family: 'Courier New', Courier, monospace; 
- font-size: 20px;  
+body{ 
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: center;
+background-color: aqua;
+margin: 0;
+padding: 0;   
 }
-#list1{
-    color: brown;
+.counter-container{
+    background: plum;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 50px;
 }
-.ul1{
-background-color: rgb(120, 128, 54);
-color: indigo;
-width: 25%;
-padding: 20px;
-margin: 20px;
-border: 5px solid blue;
-border-radius: 10px;
-transition: 0.5 ease-in-out;
+button{
+    font-size: 10px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: white;
 }
-.ul1:hover{
-background-color: darkslategray;
-border: 2px solid plum;
+#increase{
+    background-color: green;
 }
-.ul1 ol li{
+    #decrease{
+        background-color: red;
+    }
+    #reset{
+        background-color: gray;
+    }
 
-    font-size: 30px;
-    font-weight: 700;
-}
-table,th,td{
-    border: 1px solid black;
-}
